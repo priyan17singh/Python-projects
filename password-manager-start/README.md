@@ -38,7 +38,6 @@ The **Password Manager** is a secure and simple tool developed using Python and 
 
 ## 📷 Preview
 
-> *(Make sure `password_manager.png` is added to your repository before using this!)*
 
 ![Password Manager Preview](preview.jpg)
 
