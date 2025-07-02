@@ -18,7 +18,7 @@ The **Password Manager** is a secure and simple tool developed using Python and 
 
 ## 🛠️ Technologies Used
 
-- Python 3.x
+- Python 3.13.3
 - Tkinter (GUI)
 - JSON (for data storage)
 - `random`, `string`, `pyperclip` (for password generation and clipboard functionality)
