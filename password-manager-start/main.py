@@ -49,13 +49,13 @@ def save():
                 with open("data.json","r") as file:
                     # Reading the data.
                     data = json.load(file)
-                    # Updating old data with new data.
-                    
+
             except FileNotFoundError:
                 with open("data.json","w") as file:
                     # Shaving the data.
                     json.dump(new_dict,file,indent=4)
             else:
+                # Updating old data with new data.
                 data.update(new_dict)
                 with open("data.json","w") as file:
                     # Shaving the updated data.
@@ -74,7 +74,7 @@ window.title("Password manager")
 
 canvas = Canvas(width=200, height=200,highlightthickness=0)
 
-logo_img = PhotoImage(file="logo.png")
+logo_img = PhotoImage(file="password-manager-start\logo.png")
 
 canvas.create_image(100,100,image=logo_img)
 canvas.grid(column=1,row=0)
