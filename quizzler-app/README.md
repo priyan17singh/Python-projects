@@ -37,9 +37,9 @@ The **Quizzler App** is a fun and interactive quiz game built using Python and T
 
 ## 📷 Preview
 
-> *(Include `quizzler_preview.png` in your repo to render this image)*
 
-![Quizzler App Preview](quizzler_preview.png)
+
+![Quizzler App Preview](images/preview.png)
 
 ---
 
